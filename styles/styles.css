@@ -12,8 +12,10 @@ h6 {
 }
 
 .content {
-    width: 1100px;
+    max-width: 1100px;
+    width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 a {
@@ -180,9 +182,9 @@ footer.container {
 }
 
 .footer__text {
-  display: flex;
-  flex-direction: column;
-  color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
 }
 
 .footer__title {

@@ -1,0 +1,186 @@
+@media (max-width: 1024px) {
+    .content {
+        width: 90%;
+    }
+
+    .projects__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .design-layout__title {
+        font-size: 42px;
+    }
+
+    .about-me__text,
+    .way-of-work__text {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .about-me__title,
+    .way-of-work__title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .projects__title {
+        font-size: 20px;
+    }
+
+    .projects__text {
+        font-size: 15px;
+    }
+
+    .footer__title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: 90%;
+    }
+
+    .projects__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .about-me__text {
+        width: 100%;
+        padding: 0 10px 80px;
+    }
+
+    .design-layout__text {
+        width: 100%;
+    }
+
+    .design-layout {
+        padding: 60px 0;
+    }
+
+    .about-me {
+        padding-top: 40px;
+    }
+
+    .projects {
+        padding: 80px 0;
+    }
+
+    .way-of-work {
+        padding: 80px 0;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .menu__items {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .projects__object {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .design-layout__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .design-layout__cta {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .about-me__title,
+    .way-of-work__title {
+        font-size: 22px;
+    }
+
+    .projects__title {
+        font-size: 18px;
+    }
+
+    .projects__text {
+        font-size: 14px;
+    }
+
+    .footer__title {
+        font-size: 16px;
+    }
+
+    .footer__copyright {
+        font-size: 12px;
+    }
+
+    .design-layout {
+        padding: 40px 0;
+    }
+
+    .projects {
+        padding: 60px 0;
+    }
+
+    .way-of-work {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .design-layout__title {
+        font-size: 28px;
+    }
+
+    .design-layout__cta {
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    .about-me__title,
+    .way-of-work__title {
+        font-size: 24px;
+    }
+
+    .projects__title {
+        font-size: 18px;
+    }
+
+    .projects__text {
+        font-size: 14px;
+    }
+
+    .projects__object {
+        gap: 10px;
+    }
+
+    .projects__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .way-of-work__text {
+        padding: 0 10px 40px;
+    }
+
+    .footer__title {
+        font-size: 18px;
+    }
+
+    .footer__copyright {
+        font-size: 12px;
+    }
+}
